@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="w-screen h-screen bg-neutral-300 p-10">
+    <div class="w-[500px] py-10 bg-white rounded-md mx-auto flex flex-col items-center gap-10">
+        <h1 class="text-center text-3xl font-bold text-gray-800 ">Todo list</h1>
+         <div>
+              <input type="text" id="input-todo" placeholder="masukan list nama barang" class="p-2 border border-grey-400 rounded-md">
+
+          <button class="p-2 border border-gray-400 rounded-md hover:cursor-pointer bg-gray-200 hover:bg-gray-500 " id="btn-tambah-todo">
+            tambah
+         </button>
+         </div>
+
+           <ul class="space-y-3 w-[350px]" id="list-todo">
+        <!-- list barang -->
+         
+    </ul>
+
+       
+    </div>
+  
+
+    <script src="main.js"></script>
+</body>
+</html>
